@@ -28,7 +28,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas  fa-archive"></i>
+                    <i class="fas  fa-hotel"></i>
                     <span>Paket wisata</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -62,7 +62,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTransaksi"
                     aria-expanded="true" aria-controls="collapseTransaksi">
-                    <i class="fas  fa-shopping-cart"></i>
+                    <i class="fas  fa-dollar-sign"></i>
                     <span>Transaksi</span>
                 </a>
                 <div id="collapseTransaksi" class="collapse" aria-labelledby="headingUtilities"
@@ -73,6 +73,24 @@
                     </div>
                 </div>
             </li>
+              <!-- Nav Item - Utilities Collapse Menu -->
+              <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseArtikel"
+                    aria-expanded="true" aria-controls="collapseArtikel">
+                    <i class="fas  fa-file"></i>
+                    <span>Artikel</span>
+                </a>
+                <div id="collapseArtikel" class="collapse" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="utilities-color.html">Tambah Artikel</a>
+                        <a class="collapse-item" href="utilities-border.html">Hapus Artikel</a>
+                        <a class="collapse-item" href="utilities-animation.html">Delete Artikel</a>
+                        <a class="collapse-item" href="utilities-other.html">Lihat Artikel</a>
+                    </div>
+                </div>
+            </li>
+            
             <!-- Divider -->
             <hr class="sidebar-divider">
 
