@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +20,10 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('layouts/admin');
 });
+Route::prefix('admin')
+    ->namespace('admin')
+    ->group(function(){
+        Route::get('/',[DashboardController::class, 'index'])
+        ->name('dashboard');
+    });
 
