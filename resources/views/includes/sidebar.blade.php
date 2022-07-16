@@ -25,6 +25,22 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-hotel"></i>
+                    <span>Paket Wisata</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-image"></i>
+                    <span>Galery Wisata</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Transaksi</span></a>
+            </li>
+            {{-- <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
@@ -114,7 +130,7 @@
                         <a class="collapse-item" href="utilities-other.html">Lihat Admin</a>
                     </div>
                 </div>
-            </li>
+            </li> --}}
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
