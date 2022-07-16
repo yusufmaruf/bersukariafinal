@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,12 +15,15 @@ use App\Http\Controllers\Admin\DashboardController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/home', function () {
-    return view('pages.home');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/',[HomeController::class, 'index']);
+
+// Route::get('/home', function () {
+//     return view('pages.home');
+// });
 Route::prefix('admin')
     ->namespace('admin')
     ->group(function(){
