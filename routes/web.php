@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/home', function () {
-    return view('layouts/app');
+    return view('pages.home');
 });
 Route::prefix('admin')
     ->namespace('admin')
