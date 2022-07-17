@@ -44,7 +44,7 @@
                     <li>Jakarta Selatan</li>
                     <li>Indonesia</li>
                     <li>0821 - 2222 - 8888</li>
-                    <li>support@nomads.id</li>
+                    <li>support@bersukaria.com</li>
                   </ul>
                 </div>
               </div>
