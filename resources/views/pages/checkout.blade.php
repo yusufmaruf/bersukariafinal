@@ -39,9 +39,9 @@
                     <tr>
                       <td scope="col">Picture</td>
                       <td scope="col">Name</td>
-                      <td scope="col">Nationality</td>
-                      <td scope="col">Visa</td>
-                      <td scope="col">Passport</td>
+                      <td scope="col">No KTP</td>
+                      <td scope="col">No Hp</td>
+                      <td scope="col">Gmail</td>
                       <td scope="col"></td>
                     </tr>
                   </thead>
@@ -88,49 +88,48 @@
               <div class="member mt-3">
                 <h2>Add Member</h2>
                 <form class="form-inline">
+                  <div class="row align-middle">
                   <label class="sr-only" for="inputUsername">Name</label>
                   <input
                     type="text"
-                    class="form-control mb-2 mr-sm-2"
+                    class="form-control mb-2 col-8 mr-2"
                     id="inputUsername"
                     placeholder="Username"
                   />
 
-                  <label
-                    class="sr-only"
-                    class="mr-2"
-                    for="inlineFormCustomSelectPref"
-                    >Preference</label
-                  >
-                  <select
-                    class="custom-select mb-2 mr-sm-2"
-                    id="inlineFormCustomSelectPref"
-                  >
-                    <option selected value="">VISA</option>
-                    <option value="2">30 Days</option>
-                    <option value="3">N/A</option>
-                  </select>
+                  <label class="sr-only" for="inputKtp">Id KTP</label>
+                  <input
+                    type="text"
+                    class="form-control mb-2 col-8 mr-2"
+                    id="inputKTP"
+                    placeholder="ID KTP"
+                  />
+           
+                  <label class="sr-only" for="inputHp">No HP</label>
+                  <input
+                    type="text"
+                    class="form-control mb-2 col-8 mr-2"
+                    id="inputHP"
+                    placeholder="0888162734"
+                  />
+                  <label class="sr-only" for="inputHp">Gmail</label>
+                  <input
+                    type="text"
+                    class="form-control mb-2 col-8 mr-2"
+                    id="inputEmail"
+                    placeholder="beruskaria@gmail.com"
+                  />
 
-                  <label class="sr-only" for="doePassport"
-                    >DOE Passport</label
-                  >
-                  <div class="input-group mb-2 mr-sm-2">
-                    <input
-                      type="text"
-                      class="form-control datepicker"
-                      id="doePassport"
-                      placeholder="DOE Passport"
-                    />
-                  </div>
 
-                  <button type="submit" class="btn btn-add-now mb-2 px-4">
+                  <button type="submit" class="btn btn-add-now mb-2 px-4 col-8 mr-2">
                     Add Now
                   </button>
+                </div>
                 </form>
                 <h3 class="mt-2 mb-0">Note</h3>
                 <p class="disclaimer mb-0">
                   You are only able to invite member that has registered in
-                  Nomads.
+                  Sukaria.
                 </p>
               </div>
             </div>
