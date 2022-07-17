@@ -143,10 +143,6 @@
                   <td width="50%" class="text-right">2 person</td>
                 </tr>
                 <tr>
-                  <th width="50%">Additional Visa</th>
-                  <td width="50%" class="text-right">$ 190,00</td>
-                </tr>
-                <tr>
                   <th width="50%">Trip Price</th>
                   <td width="50%" class="text-right">$ 80,00 / person</td>
                 </tr>
